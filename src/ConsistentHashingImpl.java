@@ -1,12 +1,13 @@
-import java.util.Collection;
-import java.util.SortedMap;
-import java.util.TreeMap;
+package src;
+
+import java.util.*;
 
 class ConsistentHashingImpl<T>{
+    int numberOfReplicas;
   private final TreeMap<Integer, T> circle = new TreeMap<>();
   private final Map<T, TreeMap<Integer, String>> nodeToKeys = new HashMap<>();
 
-  public ConsistentHashing(int numberOfReplicas, Collection<T> nodes) {
+  public ConsistentHashingImpl(int numberOfReplicas, Collection<T> nodes) {
       this.numberOfReplicas = numberOfReplicas;
 
       for (T node: nodes) {
