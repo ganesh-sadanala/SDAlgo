@@ -1,4 +1,4 @@
-package src.RateLimitingAlgoUtil;
+package src.RateLimitingAlgo;
 
 /*
 Enforces a strict rate limit without allowing bursts.

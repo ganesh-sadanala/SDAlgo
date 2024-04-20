@@ -1,4 +1,4 @@
-package src.RateLimitingAlgoUtil;
+package src.RateLimitingAlgo;
 
 import java.util.LinkedList;
 import java.util.Queue;

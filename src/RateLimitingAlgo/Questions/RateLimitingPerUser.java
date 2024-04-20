@@ -1,7 +1,7 @@
-package src.RateLimitingAlgoUtil.Questions;
+package src.RateLimitingAlgo.Questions;
 
-import src.RateLimitingAlgoUtil.SlidingWindow;
-import java.util.HashMap;
+import src.RateLimitingAlgo.SlidingWindow;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;

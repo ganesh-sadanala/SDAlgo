@@ -1,4 +1,4 @@
-package src.RateLimitingAlgoUtil;
+package src.RateLimitingAlgo;
 
 /*
 Token Bucket Algorithm:
