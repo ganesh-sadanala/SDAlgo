@@ -37,7 +37,7 @@ public class Logger {
         startWriterThread();
     }
 
-    public static Logger getLogger(){
+    public static synchronized Logger getLogger(){
         if(logger==null) logger=new Logger();
         return logger;
     }

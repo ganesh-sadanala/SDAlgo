@@ -17,7 +17,7 @@ public class SlidingWindow {
     // tracks the time
     private final long windowSize;
 
-    // tracks the request count in that windowSize
+    // maximum request limit in window size
     private final int requestLimit;
 
     // stores the timestamps for each request
